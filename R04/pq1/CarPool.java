@@ -27,6 +27,8 @@ removeRider() --> which increases the number of available seats by 1
 getAvailableSeats() --> which returns the number of available getAvailableSeats
 
 */
+  package pq1;
+
   public class CarPool{
   private String owner;
   private String pickupplace;
@@ -44,14 +46,14 @@ getAvailableSeats() --> which returns the number of available getAvailableSeats
   }
 
   public String toString(){
-    return "carpool(" + this.owner + "," +this.pickupplace +"," +this.pickuptime+","+this.departuretime+","+this.carpooler+")";
+    return "carpool(" + this.owner + "," +this.pickupplace +"," +this.pickuptime+","+this.departuretime+","+(this.carpooler-this.rider)+")";
   }
 
   public void addRider(int a){
     if(this.rider+a <= this.carpooler){
       this.rider = this.rider+a;
     } else{
-      throw new Exception("rider can not be under 0");
+      throw new ArithmeticException("rider can not be under 0");
     }
   }
 
@@ -59,7 +61,7 @@ getAvailableSeats() --> which returns the number of available getAvailableSeats
     if(this.rider-a>=0){
       this.rider = this.rider - a;
     } else{
-      throw new Exception("rider can not be under 0");
+      throw new ArithmeticException("rider can not be under 0");
     }
   }
 
