@@ -35,9 +35,8 @@ public class DrawingModel {
 			c = new CircleShape();
 			this.add(c);
 
-      c = new RadiusChangingCircle();
-      this.add(c);
-
+			c = new GrCircle();
+			this.add(c);
 		}
 	}
 
