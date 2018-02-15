@@ -23,7 +23,7 @@ public class TestCarPool {
 	public static void loadCars() throws Exception{
 		cars[0].addRider(2);
 		cars[1].addRider(4);
-		cars[2].addRider(1);
+		cars[2].addRider(2);
 	}
 
 	public static void changeCars() throws Exception{

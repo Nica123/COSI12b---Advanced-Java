@@ -1,0 +1,9 @@
+Tim: driverName: Tim, driverID: 1, totalPay: 0.0,numRides: 0
+Jiarui: driverName: Jiarui, driverID: 2, totalPay: 0.0,numRides: 0
+Tim   completed   1 rides and has made $17.00 total pay. Should be 1 ride for $17
+Jiarui completed   1 rides and has made $139.00 total pay. Should be 1 ride for $139
+Tim   completed   2 rides and has made $66.00 total pay. Should be 2 ride for $66
+Jiarui completed   2 rides and has made $158.00 total pay. Should be 2 ride for $158
+Tim: driverName: Tim, driverID: 1, totalPay: 66.0,numRides: 2
+Jiarui: driverName: Jiarui, driverID: 2, totalPay: 158.0,numRides: 2
+Changs-MacBook-Pro:quiz1 chang$
