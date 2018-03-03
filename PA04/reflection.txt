@@ -1,0 +1,1 @@
+If I have more time, I would like to add a consumer interface by using this object technique. I will start a new class called consumer and store the ride information and cost into this object "consumer". Thus the consumer can access their trip history and the corresponding cost.

@@ -1,0 +1,22 @@
+Changs-MBP:PA04 chang$ java TestLyftDriver2
+Tim: driver(Tim,1,0.0,0)
+Jiarui: driver(Jiarui,2,0.0,0)
+Tim: driver(Tim,1,17.0,1)
+Jiarui: driver(Jiarui,2,139.0,1)
+Tim: driver(Tim,1,66.0,2)
+Jiarui: driver(Jiarui,2,158.0,2)
+
+
+Testing the getRides method
+
+
+Driver: driver(Tim,1,66.0,2)
+(1729,5.0,20.0)
+(314,20.0,30.0)
+------
+
+
+Driver: driver(Jiarui,2,158.0,2)
+(24,40.0,60.0)
+(271,4.0,12.0)
+------
