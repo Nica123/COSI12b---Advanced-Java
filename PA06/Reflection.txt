@@ -1,0 +1,16 @@
+My app is a drawing board which you draw using pen choosing different colors and even customized you own colors. Also you can insert shapes including circles, squares, rectangles and so on.
+1.
+I Integrated GUI and graphic panel together in one JFrame using Boarder layout.
+I set the LINE_START part to be control panel which uses cardLayout and gridLayout to make the menu.
+-Buttons functioned to control the colors and shapes.
+-Textfield in customized color window is set to customize one’s own color.
+-I used two new widgets Jcolorchooser and card layout.
+
+2.I is interacted with mouse as you can draw anything and insert a shape of any color anywhere.
+
+3.It has inner classes including point line and shape
+Arraylist consists of point and line and shape
+
+The best thing about the app it is very convenient to change the color of drawing.
+
+Although this app is functional as a basic sketchpad, it can be improved by adding more customized elements like a oval that changes its shape when dragging its edge.
